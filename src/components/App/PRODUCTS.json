@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1200,
+      "imageUrl": "https://cdn.thewirecutter.com/wp-content/media/2024/07/laptopstopicpage-2048px-3685-2x1-1.jpg?width=1024&quality=75&crop=2:1&auto=webp"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone",
+      "price": 800,
+      "imageUrl": "https://img.pikbest.com/wp/202346/mobile-phone-interface-purple-background-for-a-3d-rendering_9715100.jpg!bwr800"
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 150,
+      "imageUrl": "https://images.picxy.com/cache/2021/3/31/377d7100763a6049b6b87d426168ad56.webp"
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch",
+      "price": 250,
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/031/687/206/large_2x/digital-smart-watch-on-abstract-background-generative-ai-photo.jpg"
+    }
+  ]

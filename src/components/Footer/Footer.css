@@ -1,0 +1,56 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10rem;
+    .Footer-Left{
+        .Footer-Left-Text{
+            font-size: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(129, 129, 129);
+        }
+    }
+    .Footer-Center{
+        .Footer-Center-Text{
+            font-size: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(129, 129, 129);
+        }
+    }
+    .Footer-Right{
+        .Footer-Right-Text{
+            font-size: 2rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(129, 129, 129);
+        }
+    }
+    .btn-theme-1{
+        appearance: none;
+        font-size: 1rem;
+        padding: .5rem;
+        background-color: blueviolet;
+        color: white;
+        width: fit-content;
+        height: fit-content;
+        text-transform: uppercase;
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .btn-theme-2{
+        appearance: none;
+        font-size: 1rem;
+        padding: .5rem;
+        background-color: rgb(2, 122, 56);
+        color: white;
+        width: fit-content;
+        height: fit-content;
+        text-transform: uppercase;
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}

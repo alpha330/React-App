@@ -1,0 +1,10 @@
+.App {
+  text-align: left;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  h1{
+    font-size: 3rem;
+    color: blue;
+  }
+  
+}

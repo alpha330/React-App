@@ -1,0 +1,79 @@
+.blog {
+    width: 100%;
+    height: 100%;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .loading-title{
+        font-size: 4rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 4rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .posts-list{
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .post-item{
+            padding: 2rem;
+            margin: 1rem;
+            text-align: left;
+            height: fit-content;
+            width: 50%;
+            animation: postsItems 2s linear;
+            .title-post{
+                font-size: 2rem;
+                color: rgb(127, 83, 230);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-transform: uppercase;
+                margin-bottom: 1rem;
+            }
+            .content-post{
+                font-size: 1.5rem;
+                color: rgb(0, 0, 0);
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-transform: capitalize;
+            }
+        }
+    }
+    .pag-section{
+        width: 100%;
+        height: fit-content;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        .pag-list{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            list-style: none;
+            gap: 1rem;
+            .active{
+                width: 100%;
+                height: 100%;
+                background-color: blue;
+            }
+        }
+    }
+}
+
+@keyframes postsItems {
+    0%{
+        scale: 0;
+        margin-left: -100;
+    }
+    100%{
+        scale: 1;
+        margin-left: 0;
+    }
+}

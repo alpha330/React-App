@@ -1,0 +1,20 @@
+.button {
+    width: 7rem;
+    height: fit-content;
+    background-color: rgba(0, 0, 255, 0.534);
+    appearance: none;
+    cursor: pointer;
+    font-size: .7rem;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    color: white;
+    transition: all 700ms linear;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    &:hover{
+      background-color: white;
+      color: rgba(0, 0, 255, 0.534);;
+      border: 1px solid rgba(0, 0, 255, 0.534);;
+    }
+}

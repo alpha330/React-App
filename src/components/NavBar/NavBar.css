@@ -1,0 +1,19 @@
+.Navbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    .NavBar-Item {
+        font-size: 2rem;
+        text-align: center;
+        width: fit-content;
+        height: 100%;
+        color: rgb(129, 129, 129);
+        &:hover{
+            cursor: pointer;
+            color: rgba(0, 0, 255, 0.205);
+        }
+    }
+}
