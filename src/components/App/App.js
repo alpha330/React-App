@@ -20,7 +20,7 @@ function App() {
       setActiveThem,
       }}>
       <div className="App">
-        <BrowserRouter basename="/React-App">
+        <BrowserRouter>
         <Layout>
           <Switch>
             <Route exact path='/'>
