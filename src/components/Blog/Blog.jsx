@@ -1,6 +1,6 @@
 import React ,{useState, useEffect,useCallback} from "react";
 import Button from "../Button/Button";
-import './Blog.css'
+import './Blog.scss'
 
 const Blog = ()=>{
     const [posts,setPosts] = useState([])
@@ -10,7 +10,7 @@ const Blog = ()=>{
     
     const loadPosts= async() => {
         setLoading(true)
-        const response = await fetch('https://run.mocky.io/v3/df9eed21-f02a-483f-9eb8-1d26c6fc7512')
+        const response = await fetch('https://run.mocky.io/v3/741827d6-95f5-465e-ba02-31cd71369b8a')
         const posts = await response.json()
         setTimeout(()=>{
             setPosts(posts);
@@ -25,15 +25,15 @@ const Blog = ()=>{
 
     
 
-    const calculatePageCount = () => {
-        if(posts.length % 3 > 0){
-            return parseInt(posts.length /3 + 1)
+    const calculatePageCount = (counts) => {
+        if(counts.length % 3 > 0){
+            return parseInt(counts.length /3 + 1)
         }
-        return parseInt(posts.length /3);
+        return parseInt(counts.length /3);
     }
 
     useEffect(()=>{
-        setPageCounts(calculatePageCount());
+        setPageCounts(calculatePageCount(posts));
      },[posts])
      
     const handleClickOnPages = useCallback((pageNumber) => {

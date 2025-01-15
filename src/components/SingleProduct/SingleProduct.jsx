@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom/cjs/react-router-dom.min";
 import PRODUCTS from '../App/PRODUCTS.json';
-import './SingleProduct.css'
+import './SingleProduct.scss'
 
 const SingleProduct = () => {
     const {id} = useParams()
@@ -10,7 +10,7 @@ const SingleProduct = () => {
 
     return(
         <div className="single-product">
-            productItem.title
+            {productItem.title}
         </div>
     )
 }

@@ -1,15 +1,15 @@
 import React,{useState} from 'react';
-import './App.css';
-import Layout from '../Layout/Layout';
-import AboutMe from '../AboutMe/AboutMe';
-import Contact from '../Contact/Contact';
-import Products from '../Products/Products';
+import './App.jsx';
+import Layout from '../Layout/Layout.jsx';
+import AboutMe from '../AboutMe/AboutMe.jsx';
+import Contact from '../Contact/Contact.jsx';
+import Products from '../Products/Products.jsx';
 import PRODUCTS from './PRODUCTS.json';
-import Blog from '../Blog/Blog';
-import theme from '../../configs/theme';
-import SingleProduct from '../SingleProduct/SingleProduct';
+import Blog from '../Blog/Blog.jsx';
+import theme from '../../configs/theme.jsx';
+import SingleProduct from '../SingleProduct/SingleProduct.jsx';
 
-import ThemeContext from '../../contexts/ThemeContext';
+import ThemeContext from '../../contexts/ThemeContext.jsx';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
